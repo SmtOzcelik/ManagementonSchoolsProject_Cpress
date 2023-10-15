@@ -39,6 +39,7 @@ describe('US17:Teacher, öğrencilere not verebilmelidir',()=>{
           
     })
     it('TC02 Negatif Test(Devamsızlık girişi yapılmadan)',()=>{
+      
         //Kullanıcı Vice Dean Login yapar ve dogrular
         cy.visit('https://managementonschools.com/')
         cy.get('.col-sm-2 > .ms-2').should('include.text','Login')
